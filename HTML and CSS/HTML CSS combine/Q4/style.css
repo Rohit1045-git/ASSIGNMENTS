@@ -1,0 +1,108 @@
+html,body{
+    height: 100%;
+}
+
+ul{
+    list-style-type:none;
+    margin: 5px;
+    padding:10px;
+    overflow: hidden;
+    background-color: #2F86A6;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #F2F013;
+}
+
+.active{
+    background-color: #34BE82;
+}
+
+.welcome{
+    background-image: url("img/img2.jfif");
+    height:50%;
+    color:#FF8E00;
+    padding: 10px 5px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.column{
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    background-color: #4CAF50;
+    margin: 2px -1px;
+}
+
+ /* Responsive columns */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+  /* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 10%;
+}
+
+.cart button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+.card button:hover {
+    opacity: 0.7;
+}
+
+.main {
+    background-color: #A3BCB6;
+}
+.main h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    padding-top: 600px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+}
